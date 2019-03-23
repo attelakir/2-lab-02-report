@@ -4,7 +4,7 @@
 
 Блок-схема алгоритма:
 
-![Блок-схема алгоритма](https://raw.githubusercontent.com/mocurin/test/master/Naive_algorithm.svg?sanitize=true)
+![Блок-схема алгоритма](https://raw.githubusercontent.com/mocurin/test/master/pics/Naive_algorithm.svg?sanitize=true)
 
 В _лучшем случае_ время работы алгоритма - **O(N)**, где N - длина строки. Все бы ничего, если бы не время работы в _худшем случае_ - **O(N*M)**, где M - длина подстроки. Причиной тому служат многократные прогоны одной и той же позиции в строке, ведь уже проверенные позиции никак не помечаются и не пропускаются
 
@@ -27,19 +27,19 @@
 
 Блок-схема алгоритма:
 
-![Блок-схема алгоритма](https://raw.githubusercontent.com/mocurin/test/master/RK_Algorithm.svg?sanitize=true)
+![Блок-схема алгоритма](https://raw.githubusercontent.com/mocurin/test/master/pics/RK_Algorithm.svg?sanitize=true)
 
 Хеширование строки:
 
-![Хеширование строки](https://raw.githubusercontent.com/mocurin/test/master/String%20hash.svg?sanitize=true)
+![Хеширование строки](https://raw.githubusercontent.com/mocurin/test/master/pics/String%20hash.svg?sanitize=true)
 
 Вычисление степени:
 
-![Вычисление степени](https://raw.githubusercontent.com/mocurin/test/master/Count%20biggest%20power.svg?sanitize=true)
+![Вычисление степени](https://raw.githubusercontent.com/mocurin/test/master/pics/Count%20biggest%20power.svg?sanitize=true)
 
 Рехеширование:
 
-![Рехеширование](https://raw.githubusercontent.com/mocurin/test/master/Rehash.svg?sanitize=true)
+![Рехеширование](https://raw.githubusercontent.com/mocurin/test/master/pics/Rehash.svg?sanitize=true)
 
 Плюсы:
  - При правильном выборе хеш-функции время работы стремится к O(N)
@@ -56,11 +56,11 @@
 
 Блок-схема алгоритма:
 
-![Блок-схема алгоритма](https://raw.githubusercontent.com/mocurin/test/master/KMP_algorithm.svg?sanitize=true)
+![Блок-схема алгоритма](https://raw.githubusercontent.com/mocurin/test/master/pics/KMP_algorithm.svg?sanitize=true)
 
 Функция предобработки строки:
 
-![Функция предобработки подстроки](https://raw.githubusercontent.com/mocurin/test/master/Prefix%20function.svg?sanitize=true)
+![Функция предобработки подстроки](https://raw.githubusercontent.com/mocurin/test/master/pics/Prefix%20function.svg?sanitize=true)
 
 Время работы алгоритма что в _лучшем_, что в _худшем_ случаях - **O(N+M)**, то есть: обработка подстроки + обработка строки.
 
