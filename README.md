@@ -1,11 +1,11 @@
 <details>
   <summary>Много текста</summary>
-```
-CMake Error at formatter_ex_lib/CMakeLists.txt:8 (add_library): add_library cannot create target "formatter_ex" because another target with the same name already exists. The existing target is a static library created in source directory "/home/mocurin/lab03/formatter_ex_lib". See documentation for policy CMP0002 for more details.
-CMake Error at formatter_lib/CMakeLists.txt:8 (add_library): add_library cannot create target "formatter" because another target with the same name already exists. The existing target is a static library created in source directory "/home/mocurin/lab03/formatter_lib". See documentation for policy CMP0002 for more details.
-CMake Error at formatter_ex_lib/CMakeLists.txt:13 (target_link_libraries): Attempt to add link library "formatter" to target "formatter_ex" which is not built in this directory.
-CMake Error at solver_application/CMakeLists.txt:11 (add_executable): add_executable cannot create target "example" because another target with the same name already exists. The existing target is an executable created in source directory "/home/mocurin/lab03/hello_world_application". See documentation for policy CMP0002 for more details.
-CMake Error at solver_application/CMakeLists.txt:13 (target_link_libraries): Attempt to add link library "solver_lib" to target "example" which is not built in this directory.
+  ```
+  CMake Error at formatter_ex_lib/CMakeLists.txt:8 (add_library): add_library cannot create target "formatter_ex" because another target  with the same name already exists. The existing target is a static library created in source directory       "/home/mocurin/lab03/formatter_ex_lib". See documentation for policy CMP0002 for more details.
+  CMake Error at formatter_lib/CMakeLists.txt:8 (add_library): add_library cannot create target "formatter" because another target with the same name already exists. The existing target is a static library created in source directory "/home/mocurin/lab03/formatter_lib". See documentation for policy CMP0002 for more details.
+  CMake Error at formatter_ex_lib/CMakeLists.txt:13 (target_link_libraries): Attempt to add link library "formatter" to target "formatter_ex" which is not built in this directory.
+  CMake Error at solver_application/CMakeLists.txt:11 (add_executable): add_executable cannot create target "example" because another target with the same name already exists. The existing target is an executable created in source directory "/home/mocurin/lab03/hello_world_application". See documentation for policy CMP0002 for more details.
+  CMake Error at solver_application/CMakeLists.txt:13 (target_link_libraries): Attempt to add link library "solver_lib" to target "example" which is not built in this directory.
 ```
 </details>
 
