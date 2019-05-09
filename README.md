@@ -1,31 +1,3 @@
-<details>
-  <summary>Много текста</summary>
-  
-  ```
-  CMake Error at formatter_ex_lib/CMakeLists.txt:8 (add_library):
-  add_library cannot create target "formatter_ex" because another target  with the same name already exists.
-  The existing target is a static library created in source directory       "/home/mocurin/lab03/formatter_ex_lib".
-  See documentation for policy CMP0002 for more details.
-  
-  CMake Error at formatter_lib/CMakeLists.txt:8 (add_library):
-  add_library cannot create target "formatter" because another target with the same name already exists.
-  The existing target is a static library created in source directory "/home/mocurin/lab03/formatter_lib".
-  See documentation for policy CMP0002 for more details.
-  
-  CMake Error at formatter_ex_lib/CMakeLists.txt:13 (target_link_libraries):
-  Attempt to add link library "formatter" to target "formatter_ex" which is not built in this directory.
-  
-  CMake Error at solver_application/CMakeLists.txt:11 (add_executable):
-  add_executable cannot create target "example" because another target with the same name already exists.
-  The existing target is an executable created in source directory "/home/mocurin/lab03/hello_world_application".
-  See documentation for policy CMP0002 for more details.
-  
-  CMake Error at solver_application/CMakeLists.txt:13 (target_link_libraries):
-  Attempt to add link library "solver_lib" to target "example" which is not built in this directory.
-  ```
-  
-</details>
-
 ## Алгоритм прямого поиска
 Максимально простой алгоритм поиска подстроки в строке.
 Его основная идея заключается в последовательном прогоне подстроки без какой-либо предобработки. Каждый символ строки сравнивается с первым символом подстроки, затем, если символы совпадают запускается цикл последовательно проверяющий оставшиеся символы подстроки и соответствующие символы строки. В случае всех успешных проверок возвращается позиция, на которой запустился второй цикл, в противном случае проверка продолжается с позиции после этой. Если подстрока не была найдена - вернется _"неправильное значение"_, в моем случае это `std::string::npos`.
